@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.nlss@gmail.com</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom utilities css -->
+    <link rel = "stylesheet" href = "css/utilities.css">
+    <!-- custom main css -->
+    <link rel = "stylesheet" href = "css/main.css">
+</head>
+<body>
+
+    <div class = "holder">
+        <!-- navbar -->
+        <nav class = "navbar bg-brown flex">
+            <div class = "container flex">
+                <div class = "toggler-and-category bg-brown text-white flex">
+                    <button type = "button" class = "btn navbar-show-btn text-white">
+                        <i class = "fas fa-bars"></i>
+                    </button>
+                    <div class = "category-list">
+                        <span>Category</span>
+                        <button type = "button" class = "btn category-toggler-btn text-white">
+                            <i class = "fas fa-circle-arrow-down"></i>
+                        </button>
+                    </div>
+
+                    <!-- side navbar -->
+                    <ul id = "side-navbar" class = "bg-white text-uppercase">
+                        <button type = "button" class = "btn navbar-hide-btn text-dark">
+                            <i class = "fas fa-times"></i>
+                        </button>
+                        <li><a href = "#">home</a></li>
+                        <li><a href = "#">featured</a></li>                        <li><a href = "#">shop</a></li>
+                        <li><a href = "#">about</a></li>
+                        <li><a href = "#">contact</a></li>
+                    </ul>
+                    <!-- end of side navbar -->
+
+                    <ul id = "category-list-items" class = "bg-white">
+                        <li><a href = "#">Small Furniture</a></li>
+                        <li><a href = "#">Nightstands</a></li>
+                        <li><a href = "#">Dressers</a></li>
+                        <li><a href = "#">Bookcase</a></li>
+                        <li><a href = "#">Coffee Tables</a></li>
+                        <li><a href = "#">Mattresses</a></li>
+                        <li><a href = "#">Sofas</a></li>
+                        <li><a href = "#">Chairs</a></li>
+                        <li><a href = "#">Hall Trees</a></li>
+                        <li><a href = "#">Furniture Stores</a></li>
+                    </ul>
+                </div>
+
+                <!-- main navigation list -->
+                <div class = "navbar-collapse flex">
+                    <!-- nav list -->
+                    <ul class = "navbar-nav text-uppercase">
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link active-link">
+                                <span class = "nav-link-text">home</span>
+                                <span class = "dropdown-icon">
+                                    <i class = "fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">
+                                <span class = "nav-link-text">featured</span>
+                                <span class = "dropdown-icon">
+                                    <i class = "fas fa-chevron-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                                                
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">
+                                <span class = "nav-link-text">about</span>
+                            </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#" class = "nav-link">
+                                <span class = "nav-link-text">contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- end of nav list -->
+
+                    
+                </div>
+                <!-- end of main navigation list -->
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- header -->
+        <header class = "header bg-light-brown flex" id = "home">
+            <div class = "container">
+                <div class = "header-content grid text-center">
+                    <div class = "header-left">
+                        <h1>Best Design of Furniture Collection</h1>
+                        <p class = "text">Improve the atmosphere through interior design that is driven by purposes to bring value into your environment</p>
+                        
+                    </div>
+
+                    <div class = "header-right">
+                        <img src = "images/header-sofa-img.png">
+                    </div>
+                    <img src = "images/header-shape.png" class = "header-shape">
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+
+        <!-- main content -->
+        <main>
+            <!-- top new products section -->
+            <section id = "new-products" class = "new-products py bg-light-grey-color-shade">
+                <div class = "container">
+                    <div class = "section-title text-center">
+                        <h2>Products</h2>
+                        <p class = "lead">Sofas | Beds </p>
+                        <div class = "line"></div>
+                    </div>
+
+                    <div class = "new-products-content grid">
+                        <div class = "new-product-item">
+                            <div class = "image">
+                                <img src = "images/new_product_img_1.png" alt = "">
+                                <span class = "badge bg-brown text-white text-center text-uppercase">sale</span>
+                            </div>
+                            <div class = "info">
+                                <div class = "ratings text-grey">
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                    
+                                </div>
+                                <p class = "name">Decor For Living Area </p>
+                                <div class = "price">
+                                    <span class = "old text-grey">₹ 25000.00</span>
+                                    <span class = "new text-brown">₹ 16500.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "new-product-item">
+                            <div class = "image">
+                                <img src = "images/new_product_img_2.png" alt = "">
+                                <span class = "badge bg-brown text-white text-center text-uppercase">sale</span>
+                            </div>
+                            <div class = "info">
+                                <div class = "ratings text-grey">
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                    <span> </span>
+                                </div>
+                                <p class = "name">Decor For Bedroom</p>
+                                <div class = "price">
+                                    <span class = "old text-grey">₹ 21000.00</span>
+                                    <span class = "new text-brown">₹ 19625.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "new-product-item">
+                            <div class = "image">
+                                <img src = "images/new_product_img_3.png" alt = "">
+                                <span class = "badge bg-brown text-white text-center text-uppercase">sale</span>
+                            </div>
+                            <div class = "info">
+                                <div class = "ratings text-grey">
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                    <span> </span>
+                                </div>
+                                <p class = "name">Decor Of Study Table</p>
+                                <div class = "price">
+                                    <span class = "old text-grey">₹ 12600.00</span>
+                                    <span class = "new text-brown">₹ 10920.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class = "new-product-item">
+                            <div class = "image">
+                                <img src = "images/new_product_img_4.png" alt = "">
+                                <span class = "badge bg-brown text-white text-center text-uppercase">sale</span>
+                            </div>
+                            <div class = "info">
+                                <div class = "ratings text-grey">
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-brown"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                    <i class = "fas fa-star text-light-grey"></i>
+                                    <span> </span>
+                                </div>
+                                <p class = "name">Decor For Kitchen Area </p>
+                                <div class = "price">
+                                    <span class = "old text-grey">₹ 35260.00</span>
+                                    <span class = "new text-brown">₹ 28600.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of top new products section -->
+
+            <!-- category section -->
+            <section class = "category py bg-light-brown" id = "category">
+                <div class = "container">
+                    <div class = "category-content grid">
+                        <div class = "category-item">
+                            <img src = "images/category_img_1.png">
+                            <div class = "category-badge bg-white text-dark flex">Sofa Set</div>
+                        </div>
+                        <div class = "category-item">
+                            <img src = "images/category_img_2.png">
+                            <div class = "category-badge bg-white text-dark flex">TV Set</div>
+                        </div>
+                        <div class = "category-item">
+                            <img src = "images/category_img_3.png">
+                            <div class = "category-badge bg-white text-dark flex">Chairs</div>
+                        </div>
+                        <div class = "category-item">
+                            <img src = "images/category_img_4.png">
+                            <div class = "category-badge bg-white text-dark flex">Dining Table</div>
+                        </div>
+                        <div class = "category-item">
+                            <img src = "images/category_img_5.png">
+                            <div class = "category-badge bg-white text-dark flex">Decor</div>
+                        </div>
+                        <div class = "category-item">
+                            <img src = "images/category_img_6.png">
+                            <div class = "category-badge bg-white text-dark flex">Facade</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of category section -->
+
+            <!-- featured deals section -->
+            <section class = "featured-deals bg-light-grey-color-shade py" id = "featured-deals">
+                <div class = "container">
+                    <div class = "section-title text-center">
+                        <h2>featured deals</h2>
+                        <p class = "lead">Collection</p>
+                        <div class = "line"></div>
+                    </div>
+
+                    <div class = "featured-deals-content grid">
+                        <div class = "featured-deals-item">
+                            <div class = "image">
+                                <img src = "images/featured_deals_img_1.png">
+                            </div>
+                            <div class = "info bg-white">
+                                
+                                <p class = "name">1|2|4 Seaters</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class = "featured-deals-item">
+                            <div class = "image">
+                                <img src = "images/featured_deals_img_2.png">
+                            </div>
+                            <div class = "info bg-white">
+                                
+                                <p class = "name">Wooden Rest</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class = "featured-deals-item">
+                            <div class = "image">
+                                <img src = "images/featured_deals_img_3.png">
+                            </div>
+                            <div class = "info bg-white">
+                                
+                                <p class = "name">CupBoard</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class = "featured-deals-item">
+                            <div class = "image">
+                                <img src = "images/featured_deals_img_4.png">
+                            </div>
+                            <div class = "info bg-white">
+                                
+                                <p class = "name">TeakWood</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end of featured deals section -->
+
+            <!-- catalog section -->
+            <section class = "catalog bg-brown" id = "catalog">
+                <div class = "catalog-content grid text-center">
+                    <div class = "catalog-left"></div>
+                    <div class = "catalog-right text-white flex py">
+                        <div class = "section-title">
+                            <h2>Modern living quarters</h2>
+                        </div>
+                        <p class = "text">These living room quotes will inspire you. A typical western living room may contain furnishings such as a sofa, chairs, occasional tables, coffee tables, bookshelves, televisions, electric lamps, rugs, or other furniture.</p>
+                        
+                    </div>
+                </div>
+            </section>
+            <!-- end of catalog section -->
+
+            <!-- footer -->
+        <footer class = "footer bg-light-brown" id = "footer">
+            <div class = "container">
+                <div class = "footer-content py grid text-center">
+                    <div class = "footer-item">
+                        <h3>www.newluckyseatingsystem.com</h3>
+                        <p class = "text">Nlss New Lucky Seating System is a limited company based in Pune, India. Nlss New Lucky Seating System is a manufacturer company . The company's business is based in the city of Pune.Nlss New Lucky Seating System is one of the leading manufacturer company of high quality products / business services such as Cabord, Tables, King Size Bed, Bed, Wooden Wardrobe, Wooden Wardrobe, Sofa, L Shape Sofa, Sofa</p>
+                        
+                    </div>
+
+                    <div class = "footer-item">
+                        <h3>Contact Us</h3>
+                        <p class = "text">NLSS New Lucky Seating SystemSr No 33/2/2, Pissoli Village, Behind Yash Furniture, Kondhwa, Behind Yash Furniture, Kondhwa, Pisoli, ,Pune,Maharashtra,India,411048</p>
+                        <p class = "text">Phone: +91 8983470443</p>
+                        <p class = "text">Phone: +91 9822925901</p>
+                        <p class = "text">Email: nlss@gmail.com</p>
+                    </div>
+
+                                       
+                </div>
+            </div>
+
+            <div class = "footer-end bg-dark">
+                <div class = "container grid">
+                    <p class = "text text-white text-center">&copy; Copyright 2023. All Right Reserved. Designed and Developed by Faiz Tamboli</p>
+                    
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+    </div>
+    
+
+
+
+
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
